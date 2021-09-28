@@ -1,65 +1,64 @@
 /* General Styles */
 
 .bg {
-  height: 100vh;
-  padding: 50px;
+  height  : 100vh;
+  padding : 50px;
   overflow: hidden;
 }
 
-.heading {
+h1 {
   text-transform: uppercase;
 }
 
-.btn {
-  border: none;
-  padding: 10px 30px;
+button {
+  border       : none;
+  padding      : 10px 30px;
   border-radius: 4px;
-  margin-top: 20px;
-  font-size: 15px;
-  cursor: pointer;
+  margin-top   : 20px;
+  font-size    : 15px;
+  cursor       : pointer;
 }
 
-.para {
+p{
   width: 70vw;
 }
 
 /* Light Mode Styles */
 
-.bg-light {
+.light {
   background-color: #fff;
 }
 
-.heading-light {
+.light h1 {
   color: #222;
 }
 
-.para-light {
+.light p {
   color: #222;
 }
 
-.btn-light {
+.light button {
   background-color: #222;
-  color: #fff;
-  font-size: 15px;
-  cursor: pointer;
+  color           : #fff;
+  font-size       : 15px;
+  cursor          : pointer;
 }
 
 /* Dark Mode Styles */
 
-.bg-dark {
+.dark {
   background-color: #222;
 }
 
-.heading-dark {
+.dark h1 {
   color: #fff;
 }
 
-.para-dark {
+.dark p {
   color: #fff;
 }
 
-.btn-dark {
+.dark button {
   background-color: #fff;
-  color: #222;
-
+  color           : #222;
 }
